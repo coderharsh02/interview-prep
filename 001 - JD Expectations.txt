@@ -1,0 +1,6 @@
+1. MVC Core
+2. Angular/React 
+3. EF SQL Server
+4. WebAPI
+5. Azure 
+6. CI/CD + Devops + Kubernetes

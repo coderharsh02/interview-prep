@@ -1,0 +1,213 @@
+1. Why do we need OOPs?
+=> OOP help us to think in terms of real world objects
+    Give example regarding hospitals
+
+
+2. What is class and object?
+=> A class is a type or a blue print and object is an instance of that class 
+
+
+3. What are the important pillars in OOP?
+=> Four pillars of oops 
+    1. Abstraction      (Show only what is necessary)
+    2. Encapsulation    (Hide Complexity) 
+    3. Polymorphism     (Object can act differently under different conditions)
+    4. Inheritance      (Parent Child Relationships)
+
+
+4. What is difference between Abstraction and Encapsulation? (https://youtu.be/1Q4I63-hKcY?si=HtK8NW29EG_jJRMh)
+=>  Encapsulation implements Abstraction
+    Abstraction happens during design phase
+    Encapsulation happens during implementetion phase 
+
+Abstraction:    The concept of allowing the user of your class to have access to only what they need. (Concept)
+Encapsulation:  The physical code that prevents the user from accessing fields or methods 
+                you do not want them to access. (Actual Implementation)
+
+Good example:
+If a user is trying to deposit to an account balance. 
+Account balances can't be negative or over 100,000, say. 
+So your add function has a check. 
+
+A user of the class can circumvent these checks by saying obj.balance = -123; 
+
+This is bad, so we want to use "Abstraction" to allow user access to only the things we want them to.
+
+So we make balance private, and now the user can only add through YOUR function. 
+The act of making the field private and adding a modifier method is "Encapsulation". 
+
+So we can say, Encapsulation implements Abstraction.
+
+
+5. Explain Inheritance. Explain 'is-a' relationship.
+Inheritance defines a parent child relationship between two classes.
+For example
+class Employee 
+{
+    string name;
+    string address;
+    bool validateEmployee();
+}
+
+class Manager : Employee 
+{
+    bool validateManager();
+}
+
+If we create an object of Manager class then it can use all the inherited properties 
+of Employee class that are public and also the properties of Manager class.
+
+Note: Here the access modifiers plays an important role
+public, protected and private
+
+if property or method have public access modifier then it would be accessible both inside and outside the class.
+It can be used by object as well as inside the child class that inherits the parent class;
+
+if property or method have protected access modifier then it would be accessible only inside class and not 
+accessible to object of class. It can be used only inside class and by the the child class that inherits 
+the parent class;
+
+if property or method have private access modifier then it would be accessible only inside class and 
+not accessible to object of class. It can be used only inside class. The child class that inherits the 
+parent class cannot use this properties of parent class;
+
+
+6.  Virtual Keyword OR Virtual Methods Or Method Overriding.
+=>  virtual keyword helps us to define some logic inside the parent class 
+    which can be overridden in the child class.
+
+
+7. difference between none-new and virtual-override  (code - virtual-override-new.cs)
+
+The override modifier may be used on virtual methods and must be used on abstract methods. 
+This indicates for the compiler to use the last defined implementation of a method. 
+Even if the method is called on a reference to the base class it will use the 
+implementation overriding it.
+
+The new modifier instructs the compiler to use your child class implementation instead 
+of the parent class implementation. Any code that is not referencing your class but 
+the parent class will use the parent class implementation.
+
+=> In none-new type when we have object of derived class store in type of base class variable and on calling the
+    none-new method it on that object it would call the method of base class 
+
+    while in virtual-override type when we have object of derived class store in type of base class variable 
+    calling the virtual-override method on that object it would call the method of derived class 
+
+
+All combinations of none, virtual, override, new and abstract:
+|-------------|----------------|---------------------------------|
+| Base Method | Derived Method | Base b = new Derived().Method() |
+|-------------|----------------|---------------------------------|
+|             |                | B                               |
+|             | new            | B                               |
+|             | override       | Error                           |
+| virtual     |                | B                               |
+| virtual     | new            | B                               |
+| virtual     | override       | D                               |
+| abstract    |                | Error                           |
+| abstract    | new            | Error                           |
+| abstract    | override       | D                               |
+|-------------|----------------|---------------------------------|
+
+
+
+
+
+8. Method Overloading
+=> Method Overloading means same method names with different signature
+    in same class
+
+Class Employee 
+{
+    void Add(string name);
+    void Add(string name, string address);
+}
+
+9. Method Overloading vs Method Overriding
+
+=> Method Overloading means having same method names with different signature in same class 
+    or in parent child relationship class.
+    while Method overriding comes into existence when we have parent child relationship where 
+    we have say add method in parent class marked as virtual and in child class we may want to 
+    provide different behaviour for add method so we use override keyword and redefine the method 
+    with same name in child class with same signature.
+
+
+
+10. Polymorphism
+=> Poly is many and morph means to change as per situation.
+=> Polymorphism in oop can be seen as the ability of an object to act differently
+    under different condition.
+
+11. Can we implement Polymorphism without Inheritance?
+=> No we cannot implement polymorphism without inheritance.
+
+12. Two Kind of polymorphism?
+Static Polymorphism (Compile Time Polymorphism)  implemented by Method Overloading.
+Dynamic Polymorphism     (Runtime Polymorphism)  implemented by Method Overriding. 
+
+
+Why Method Overriding is know as Runtime Polymorphism?
+Because it decides which implemented method to call on the object on the runtime.
+While in case of method overloading it is fixed at the time of compilation that 
+which of the overloaded method would be called and that's why method overloading 
+helps to achieve static polymorphism.
+
+
+13. Operator Overloading
+=> Concept of polymorphism, here we can reuse same operators like +, -, * and others
+    with various functionalities.
+    For Example, 1 + 1, 1 + "Shiv", 1 + 1.1
+    Here same + operator accepts various types of arguments and execute different 
+    functions based on what it receives. That's operator overloading.
+
+14. Custom Operator Overloading
+=>  Yes we can do custom operator overloading for say SomeClass X and we want to 
+    apply + operator on the object of class X. Then inside class X we can define 
+    
+    public static X operator + (X o1, X o2)
+    {
+        X y = new X();
+        // perform some operation using o1 and o2 and return y
+        return y;
+    }
+
+
+15. What is abstract class?
+=>  Abstract class is a partially defined parent class.
+    
+    Here some implementation is defined in abstract class and the remaining 
+    implementation is left for child class to implement.
+
+    This partially defined class are inherited by normal class 
+    and it implements the partially defined parts of parent class. 
+
+
+16. Are abstract methods of an abstract class virtual?
+=>  Yes, abstract methods in an abstract class are by default virtual.
+
+17. Can we create instance of an abstract class?
+=>  No, We cannot create the object or instance of an abstract class
+    as it is partially defined.
+
+18. Is it necessary to implement abstract method in child class?
+=> Yes, it is necessary to implement all the abstract method of parent class in 
+    child class, unless child class itself is an abstract class.
+
+19. Why simple parent class cannot replace the abstract class?
+=>  As simple classes cannot be defined as pure half class, we cannot 
+    declare abstract method in a simple class. For that we need to 
+    use abstract class.
+
+20. Interface
+=>  Interface is a Contract.
+    Its a legal binding between the developer who is creating the class and the consumer 
+    who is using the class 
+
+21. Can we write logic in Interface?
+=>  No, we cannot write logic in Interface, in interface you only have pure signatures.
+
+22. 
+=>  By default all the properties and methods of the interface is public.
+ 
