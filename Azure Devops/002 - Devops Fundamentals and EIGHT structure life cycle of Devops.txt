@@ -1,0 +1,44 @@
+To learn anything try to answer following 
+
+1. What 
+2. Why 
+3. How
+
+1. What is DevOps?
+=> DevOps is a promentu word formed by two words
+    Development + Operations 
+
+=> DevOps is a philosophy. It says that the development and the operation team 
+    should work together like one unit to create a smooth delivery.
+
+=> Eight Structure Life Cycle
+
+                Plan                  Deploy
+      Code
+                DEV       Release      OPS        Operate
+      Build
+
+                Test                  Monitor
+
+
+Development = Plan -> Code -> Build -> Test 
+        
+                Release
+
+Operations  = Deploy -> Operate -> Monitor
+
+
+=> PETULA 
+
+                      Planning              UAT
+      
+        Execution   DEVELOPMENT          OPERATIONS        Go Live
+
+                      Testing        Assistance and Support
+                                  
+Deveopment = Planning -> Execution -> Testing
+Operation  = UAT -> Go Live -> Assistance and Support
+
+
+=> So, overall devops is a philosophical approach wherein, the dev and the operation team 
+    work together to provide smooth software delivery to the customer.
