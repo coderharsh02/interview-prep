@@ -1,0 +1,19 @@
+Microsoft Entra (Part 4)
+Azure AD 
+Azure AD Join
+
+
+Networking (On-premise to Azure conncetion )
+
+Azure Storage 
+
+
+Azure Monitoring
+
+Azure Trust Center 
+compliance manager from the Security Trust Center 
+Microsoft Defender for Cloud
+
+Azure Policy blueprints compliance
+
+Azure DDos

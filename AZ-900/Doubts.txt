@@ -1,0 +1,17 @@
+Q14 - You have legacy applications that require specialized mainframe hardware, and you have newer shared applications. Which cloud deployment model would be best for you?
+=> Answer should be Hybrid cloud 
+    as we can run specialized mainframe hardware at on-premise (private)
+    and for shared applications we can use cloud resources (public)
+
+Q24 An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script.
+Solution: You use Bash in Azure Cloud Shell. Does this meet the goal?
+
+=> Answer should be No 
+    => Though it is telling to use Azure Cloud Shell which allow both Bash scripts using Azure CLI and Powershell Scripts using Azure Powershell
+        BUT here Solution specifically says that you are using Bash in Azure Cloud Shell that would make it incorrect.
+
+Q53 Your company has multiple Azure Virtual Machines in an Availability Zone in Region A. You are asked to move one Virtual Machine from this Availability Zone to another Availability Zone in Region B. 
+    Is this possible?
+
+=> Answer Should be YES
+
