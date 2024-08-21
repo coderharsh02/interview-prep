@@ -81,21 +81,16 @@
 - **3.2.1 Describe the Purpose of Microsoft Purview in Azure**
 - **3.2.2 Describe the purpose of Azure Policy**
 - **3.2.3 Describe the purpose of resource locks**
-
-### 3.3 Describe features and tools in Azure for governance and compliance
-- **3.3.1 Describe the purpose of Microsoft Purview in Azure**
-- **3.3.2 Describe the purpose of Azure Policy**
-- **3.3.3 Describe the purpose of resource locks**
     
-### 3.4 Describe features and tools for managing and deploying Azure resources
-- **3.4.1 Describe the Azure portal**
-- **3.4.2 Describe Azure Cloud Shell, including Azure Command-Line Interface (CLI) and Azure PowerShell**
-- **3.4.3 Describe the purpose of Azure Arc**
-- **3.4.4 Describe infrastructure as code (IaC)**
-- **3.4.5 Describe Azure Resource Manager (ARM) and ARM templates**
+### 3.3 Describe features and tools for managing and deploying Azure resources
+- **3.3.1 Describe the Azure portal**
+- **3.3.2 Describe Azure Cloud Shell, including Azure Command-Line Interface (CLI) and Azure PowerShell**
+- **3.3.3 Describe the purpose of Azure Arc**
+- **3.3.4 Describe infrastructure as code (IaC)**
+- **3.3.5 Describe Azure Resource Manager (ARM) and ARM templates**
     
-### 3.5 Describe monitoring tools in Azure
-- **3.5.1 Describe the purpose of Azure Advisor**
-- **3.5.2 Describe Azure Service Health**
-- **3.5.3 Describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights**
+### 3.4 Describe monitoring tools in Azure
+- **3.4.1 Describe the purpose of Azure Advisor**
+- **3.4.2 Describe Azure Service Health**
+- **3.4.3 Describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights**
 
