@@ -1,0 +1,1 @@
+Describe Authentication Methods in Azure, Including Single Sign-On (SSO), Multi-Factor Authentication (MFA), and Passwordless

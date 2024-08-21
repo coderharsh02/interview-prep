@@ -1,0 +1,1 @@
+Describe Azure Resource Manager (ARM) and ARM templates

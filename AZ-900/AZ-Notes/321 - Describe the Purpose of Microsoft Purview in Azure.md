@@ -1,0 +1,1 @@
+Describe the Purpose of Microsoft Purview in Azure

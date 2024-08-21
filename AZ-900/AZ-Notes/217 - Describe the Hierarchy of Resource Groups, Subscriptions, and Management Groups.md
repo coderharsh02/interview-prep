@@ -1,0 +1,1 @@
+Describe the Hierarchy of Resource Groups, Subscriptions, and Management Groups

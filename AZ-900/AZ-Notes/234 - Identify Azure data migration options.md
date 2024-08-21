@@ -1,0 +1,1 @@
+Describe Storage Account Options and Storage Types

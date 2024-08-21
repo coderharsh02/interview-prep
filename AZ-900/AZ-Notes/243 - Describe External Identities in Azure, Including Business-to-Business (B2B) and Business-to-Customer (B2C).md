@@ -1,0 +1,1 @@
+Describe External Identities in Azure, Including Business-to-Business (B2B) and Business-to-Customer (B2C)

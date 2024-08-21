@@ -1,0 +1,1 @@
+Describe Microsoft Entra Conditional Access
