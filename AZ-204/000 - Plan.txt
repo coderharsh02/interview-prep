@@ -1,0 +1,23 @@
+7 milestones in this Plan
+
+MILESTONE 1 - Introduction to Azure App Service and Azure Functions
+    Understand the key components and benefits of using Azure App Service for web applications, hosting, scalable development, and maintenance. Azure Functions can help you create, configure, and deploy serverless code architecture.
+
+MILESTONE 2 - Store data with Azure Blob and Azure Cosmos DB
+    Store unstructured data with Blobs (binary large objects). You'll also learn about Azure Cosmos DB's multi-model database service designed for high-performance and low-latency.
+
+MILESTONE 3 - Develop a containerized solution
+    Use Azure to implement containers for applications to ensure consistent performance across different computing environments.
+
+MILESTONE 4 - Create secure applications with Microsoft Azure
+    Protect data with encryption mechanisms and secure authentication and authorization procedures in Azure applications.
+
+MILESTONE 5 - Streamline specific development needs in Azure
+    Understand the basics of API management, Azure Event Grid, and messaging services when developing apps.
+
+
+MILESTONE 6 - Enhance application performance
+    Learn how to instrument applications for monitoring and logging in order to ensure performance, reliability and maintainability. You'll also implement caching and content delivery solutions to enhance performance, scalability, and user experience.
+
+MILESTONE 7 - Get certified as an Azure Developer Associate
+    Prepare and take the Microsoft Certified Exam for Azure Developer Associate and earn a Microsoft Credential.
