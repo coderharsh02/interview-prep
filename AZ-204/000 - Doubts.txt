@@ -1,0 +1,1 @@
+1. In an app service plan can I host web apps that require different operating system to run the framework?
