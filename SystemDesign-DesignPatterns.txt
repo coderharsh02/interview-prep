@@ -1,0 +1,13 @@
+System Desing - Ashish Pratap Singh
+https://youtu.be/l3X1t3kpmwY?si=Q_fkL7qXar0vDmfU
+
+Resources I mentioned in this video:
+Awesome System Design Resources (Github): https://github.com/ashishps1/awesome-...
+How to Answer a System Design Interview Problem (Blog): https://blog.algomaster.io/p/how-to-a...
+Designing Data-Intensive Applications (Book): https://www.amazon.com/dp/1449373321
+System Design Primer (Github): https://github.com/donnemartin/system...
+Awesome Scalability (Github): https://github.com/binhnguyennus/awes...
+
+
+Design Patterns - freeCodeCamp.org
+https://youtu.be/rylaiB2uH2A?si=vAIMdUDEofX4rFpG
