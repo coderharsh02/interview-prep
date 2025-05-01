@@ -1,5 +1,25 @@
-1. **Intro and Project Details:**
-I am Harsh Shah, an Associate Software Engineer at Radix Software Services. I am currently working on a dynamic registration form project using .NET Core Web API, SQL Server, and Angular. The form's structure, including its fields and dropdown values, is dynamically rendered based on the data retrieved from the backend, where these configurations are stored in the database. The project focuses on reusability, scalability, and performance optimization.
+1. **Tell me about yourself**
+Sure! I'm Harsh Shah, currently working as an Associate Software Engineer at Radix Software Services in Ahmedabad. I have over 2 years of experience in full-stack development, mainly using ASP.NET, Angular, and SQL Server. My role involves designing APIs, implementing complex business logic, and integrating front-end components using Angular.
+
+I hold a Bachelor's degree in Computer Science Engineering with a CGPA of 9.91, and I’ve also earned the Microsoft Azure Fundamentals (AZ-900) certification. I’m passionate about clean code, scalable projects, and constantly improving my skills. Currently, I’m preparing for the AZ-204 certification and practicing DSA through LeetCode.
+
+I’m now looking for new challenges where I can contribute to impactful projects, grow as a developer, and work in a collaborative environment that values learning and innovation.
+
+PPF 
+Present - Your current role and responsibilities,
+Past    - Your previous experience, education, and achievements, 
+Future  - Why you’re excited about this opportunity and how it aligns with your goals.
+
+2. **Tell me about the project you have worked on**
+I’ve been working on a full-stack project in the recruitment domain, which acts as a middleware between recruitment agencies and their ATS (Applicant Tracking Systems). Traditionally, recruiters manually entered candidate data into their ATS, which was time-consuming and inconsistent. Our goal was to digitalize and streamline this workflow.
+
+On the backend, I used ASP.NET Core Web API and Entity Framework Core (Code First) to design a dynamic form engine. These forms are completely configurable — with field definitions, validations, and layouts all stored in the database — and vary based on the client’s requirements. Once a candidate fills out the form, the data goes through verification and is then integrated into the client’s ATS using secure APIs, following the OAuth 2.0 Client Credentials flow for authorization.
+
+On the frontend, I worked with Angular, where we dynamically rendered multi-step forms based on API metadata. These forms included conditional fields, file uploads, and custom validations. I focused on maintaining responsive UX, form state management using RxJS, and modular architecture to keep things scalable.
+
+A major recent feature was our UK background check module, which I worked on with two other team members. This involved integrating with third-party APIs to perform checks like identity and police verification. I handled both backend API calls with secure token-based access and the frontend display of real-time check statuses and report generation.
+
+I also contributed to PDF generation for digital contracts, dynamic reporting, and performance tuning of API calls and SQL queries. Overall, I’ve had end-to-end involvement across backend, frontend, integrations, and deployments.
 
 2. **Project Architecture:**
 The architecture follows a layered approach:
