@@ -1,0 +1,24 @@
+01. Explain what is middleware
+02. Types of middleware
+03. app.use, app.run, app.map
+04. What is routing?
+05. Types of routing?
+06. If I mention the route at controller is it required to mention route at each action level?
+07. Why we use session?
+08. How can we manage state in .net?
+09. What is singleton?
+10. Singleton / Scoped / Transient
+11. Dependency Injection
+12. Why do we use JIT, what is JIT
+13. What is Garbage Collector? Type of Garbage Collector
+14. How many generation are there in Garbage Collector
+15. What is Azure Functions.
+16. What is delegate and why do we use it.
+17. Extension Methods
+18. ref vs out parameter
+19. Types of Filters in ASP.NET Core
+20. SOLID Principles
+21. Method overloading vs Method Overriding
+22. Abstract Class
+23. Static Class
+24. Abstract class vs Interface

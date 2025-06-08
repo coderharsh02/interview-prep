@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("az101virtualmachine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90c472974f68013cc162358595ffcfd8f8942299")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6472002e413b69a11e96c888c2aba1e8af06ee2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("az101virtualmachine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("az101virtualmachine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
