@@ -8,7 +8,6 @@ Here’s a **comprehensive interview guide on ASP.NET Core Filters**, covering e
 ## ✅ **What Are Filters in ASP.NET Core?**
 
 * **Filters** are components that allow code to run **before or after** specific stages in the request processing pipeline.
-* They are used **within the MVC framework**, not in general middleware.
 * Filters are mainly for **cross-cutting concerns** like:
 
   * Authorization
@@ -19,7 +18,26 @@ Here’s a **comprehensive interview guide on ASP.NET Core Filters**, covering e
 
 ---
 
-## ✅ **Why Use Filters When We Have Middleware?**
+## ✅ **How filters work?**
+* Filters run within the action invocation pipeline also known as filter pipeline.
+* It runs after the action selection pipeline.
+
+* ![alt text](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters/_static/filter-pipeline-1.png?view%3Daspnetcore-9.0)
+
+---
+
+
+## ✅ **How filters work?**
+* Filters run within the action invocation pipeline also known as filter pipeline.
+* It runs after the action selection pipeline.
+
+* ![alt text](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters/_static/filter-pipeline-1.png?view%3Daspnetcore-9.0)
+
+---
+
+## ✅ **Types of Filte?**
+* ![alt text](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters/_static/filter-pipeline-2.png?view%3Daspnetcore-9.0)
+
 
 | Aspect    | Middleware                       | Filters                                   |
 | --------- | -------------------------------- | ----------------------------------------- |
