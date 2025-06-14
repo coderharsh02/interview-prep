@@ -1,7 +1,7 @@
 
 ---
 
-## **Lecture 5: Understanding Kestrel Server in ASP.NET Core**
+## **[Lecture 5: Understanding Kestrel Server in ASP.NET Core](https://youtu.be/yTBEO9dTUI4?si=7wd-nKygJd1N0dDY)**
 
 ### 🔧 **Why ASP.NET Core Needs a Web Server**
 
@@ -106,4 +106,3 @@ Kestrel is a modern, fast, cross-platform web server built for ASP.NET Core. Whi
 
 ---
 
-Let me know if you want this in a downloadable format (like PDF, DOCX, or Markdown) or if you'd like to generate diagrams based on this flow.
