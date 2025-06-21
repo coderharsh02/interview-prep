@@ -110,5 +110,3 @@ app.MapGet("/books/author/{authorName}/{bookId?}", async (string authorName, str
 * Great for **flexible routes** with fewer endpoint methods.
 
 ---
-
-Let me know if you want real code examples or sample use cases in MVC/Web API!

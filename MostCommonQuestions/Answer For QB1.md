@@ -11,15 +11,15 @@ Past    - Your previous experience, education, and achievements,
 Future  - Why you’re excited about this opportunity and how it aligns with your goals.
 
 2. **Tell me about the project you have worked on**
-I’ve been working on a full-stack project in the recruitment domain, which acts as a middleware between recruitment agencies and their ATS (Applicant Tracking Systems). Traditionally, recruiters manually entered candidate data into their ATS, which was time-consuming and inconsistent. Our goal was to digitalize and streamline this workflow.
+I’ve been working on a full-stack project in the recruitment domain, which acts as a middleware between recruitment agencies and their ATS (Applicant Tracking Systems). It operates in Australia and recently expanded to UK. Traditionally, recruiters manually entered candidate data into their ATS, which was time-consuming and inconsistent. Our goal was to digitalize and streamline this workflow.
 
-On the backend, I used ASP.NET Core Web API and Entity Framework Core (Code First) to design a dynamic form engine. These forms are completely configurable — with field definitions, validations, and layouts all stored in the database — and vary based on the client’s requirements. Once a candidate fills out the form, the data goes through verification and is then integrated into the client’s ATS using secure APIs, following the OAuth 2.0 Client Credentials flow for authorization.
+We have designed a dynamic form engine that helps to create forms that are completely configurable — with field definitions, validations, and layouts all stored in the database — and vary based on the client’s requirements. Once a candidate fills out the form, the data goes through verification and is then integrated into the client’s ATS using secure APIs, majorly following the OAuth 2.0 Client Credentials flow for authorization.
 
-On the frontend, I worked with Angular, where we dynamically rendered multi-step forms based on API metadata. These forms included conditional fields, file uploads, and custom validations. I focused on maintaining responsive UX, form state management using RxJS, and modular architecture to keep things scalable.
+It also involved generating digital contracts with signature, dynamic report generation and integration with ATS.
 
-A major recent feature was our UK background check module, which I worked on with two other team members. This involved integrating with third-party APIs to perform checks like identity and police verification. I handled both backend API calls with secure token-based access and the frontend display of real-time check statuses and report generation.
+A major recent feature was UK background check module, which I worked on with two other team members. This involved integrating with third-party APIs to perform candidate background checks along with candidate onboarding.
 
-I also contributed to PDF generation for digital contracts, dynamic reporting, and performance tuning of API calls and SQL queries. Overall, I’ve had end-to-end involvement across backend, frontend, integrations, and deployments.
+Overall, I’ve had end-to-end involvement across backend, frontend, integrations, and deployments.
 
 2. **Project Architecture:**
 The architecture follows a layered approach:
