@@ -176,8 +176,86 @@ CLR is like the **engine of a car**—you just write the code (fuel), and it han
 
 ---
 
-Let me know if you'd like to add how CLR differs from JVM in interviews.
 
+## 9. What is managed and unmanaged code?
+
+**Managed code is executed by the .NET CLR, while unmanaged code runs directly on the operating system without CLR supervision.**
+
+### Key Points:
+
+* ✅ **Managed Code:**
+
+  * Written in .NET languages like C#, F#, VB.NET.
+  * Runs under the control of the **CLR**.
+  * Benefits from automatic **memory management (Garbage Collection)**, **type safety**, and **security**.
+
+* ✅ **Unmanaged Code:**
+
+  * Written in languages like C or C++.
+  * Runs **directly on the OS**, outside the CLR.
+  * Developer must manually manage memory (using `malloc` / `free`).
+
+* ✅ **Interop Support:**
+  .NET can call unmanaged code using **P/Invoke** or **COM Interop** when needed (e.g., calling Windows APIs or native libraries).
+
+### Analogy:
+
+Managed code is like living in a **society with security, housekeeping, and maintenance handled**.
+Unmanaged code is like living in your own **independent house**, where **you’re responsible for everything**.
+
+---
+
+## 10. Explain the importance of Garbage Collector (GC)
+
+**The Garbage Collector automatically frees up memory by removing objects that are no longer in use, preventing memory leaks and improving application performance.**
+
+### Key Points:
+
+* ✅ **Automatic Memory Management:**
+  GC tracks object references and deletes those no longer needed—no manual `delete` or `free` required.
+
+* ✅ **Prevents Memory Leaks:**
+  By cleaning unused objects, GC ensures memory isn’t wasted by forgotten allocations.
+
+* ✅ **Improves Application Stability:**
+  Reduces chances of crashes due to memory overflows or dangling pointers.
+
+* ✅ **Optimizes Performance:**
+  GC runs in the background and uses algorithms that group and clean memory efficiently (like generations: Gen 0, Gen 1, Gen 2).
+
+* ✅ **Part of CLR:**
+  GC is a core service provided by the Common Language Runtime in .NET.
+
+### Analogy:
+
+Garbage Collector is like a **robotic housekeeper**—it automatically takes out the trash (unused objects) so your house (memory) stays clean and organized without you doing it manually.
+
+---
+
+## 11. Can Garbage Collector claim unmanaged objects?
+
+**No, the Garbage Collector cannot directly reclaim unmanaged objects.**
+
+### Key Points:
+
+* ❌ **Unmanaged resources** (like file handles, database connections, or memory allocated via C/C++) are **outside the control of the CLR**.
+* ✅ GC only manages memory allocated for **managed objects** within the .NET environment.
+* ✅ To clean up unmanaged resources, we use:
+
+  * **`Dispose()` method** via the `IDisposable` interface.
+  * **`using` statement** to ensure timely release.
+  * **Finalizers (`~ClassName`)** for backup cleanup (but they run unpredictably).
+
+### Best Practice:
+
+Use the **`IDisposable` pattern** to manually release unmanaged resources and suppress finalization using `GC.SuppressFinalize()`.
+
+### Analogy:
+
+The Garbage Collector is like an **automated cleaner** that can only clean inside your apartment (managed memory).
+If you’ve rented extra storage outside (unmanaged resources), **you must clean it yourself**.
+
+---
 
 
 
