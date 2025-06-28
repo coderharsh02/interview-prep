@@ -3,7 +3,7 @@
 
 ### ✅ **1. What is Angular?**
 
-**Angular is a JavaScript-based UI framework for building dynamic web applications using MVVM or MVW architecture.**
+**Angular is a TypeScript-based UI framework for building dynamic web applications.**
 
 It connects the UI (View) with business logic (Model) using binding code, so any change in model reflects in the view and vice versa.
 

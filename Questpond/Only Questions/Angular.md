@@ -1,5 +1,8 @@
 [Questpond Angular Interview Questions](https://www.questpond.com/most-important-angular-interview-questions-and-answers/cid45)
 
+[1-25 Questions Video](https://youtu.be/-jeoyDJDsSM?si=Xmf3141QAuykOFc6)
+
+[45-55 Questions Video](https://youtu.be/eUYigtm3Sdc?si=6MyjbmgRZRioP30d)
 
 Question No:- 1 :- Whats the use of Angular ?
 
