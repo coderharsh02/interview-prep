@@ -1,5 +1,13 @@
 [Questpond C# Interview Questions](https://www.questpond.com/c-interview-questions-and-answers/cid69)
 
+[1 - 30](https://youtu.be/BKynEBPqiIM?si=E51Ev_hJZKYswtLA)
+
+[31 - 36](https://www.youtube.com/live/7j3GXOHd_K8?si=RF7rVRctIwnx3I1L)
+
+[37 - 62](https://youtu.be/u99wAoBjDvQ?si=NLuPJkxvDUqSIR7M)
+
+[63](https://youtu.be/0EnSPBVrbG0?si=XgAISmq8LDZhKAqu)
+
 Question 1 :- Explain difference between .NET and C# ?
 
 Question 2 :- .NET Framework vs .NET Core vs .NET 5.0
