@@ -1,7 +1,8 @@
 1. **Tell me about yourself**
+
 Sure! I'm Harsh Shah, currently working as an Associate Software Engineer at Radix Software Services in Ahmedabad. I have over 2 years of experience in full-stack development, mainly using ASP.NET, Angular, and SQL Server. My role involves designing APIs, implementing complex business logic, and integrating front-end components using Angular.
 
-I hold a Bachelor's degree in Computer Science Engineering with a CGPA of 9.91, and I’ve also earned the Microsoft Azure Fundamentals (AZ-900) certification. I’m passionate about clean code, scalable projects, and constantly improving my skills. Currently, I’m preparing for the AZ-204 certification and practicing DSA through LeetCode.
+I hold a Bachelor's degree in Computer Science Engineering with a CGPA of 9.91, and I’ve also earned the Microsoft Azure Fundamentals (AZ-900) certification. I’m passionate about clean code, scalable projects, and constantly improving my skills.
 
 I’m now looking for new challenges where I can contribute to impactful projects, grow as a developer, and work in a collaborative environment that values learning and innovation.
 
