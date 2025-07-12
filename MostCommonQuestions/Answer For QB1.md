@@ -12,6 +12,7 @@ Past    - Your previous experience, education, and achievements,
 Future  - Why you’re excited about this opportunity and how it aligns with your goals.
 
 2. **Tell me about the project you have worked on**
+
 I’ve been working on a full-stack project in the recruitment domain, which acts as a middleware between recruitment agencies and their ATS (Applicant Tracking Systems). It operates in Australia and recently expanded to UK. Traditionally, recruiters manually entered candidate data into their ATS, which was time-consuming and inconsistent. Our goal was to digitalize and streamline this workflow.
 
 We have designed a dynamic form engine that helps to create forms that are completely configurable — with field definitions, validations, and layouts all stored in the database — and vary based on the client’s requirements. Once a candidate fills out the form, the data goes through verification and is then integrated into the client’s ATS using secure APIs, majorly following the OAuth 2.0 Client Credentials flow for authorization.
