@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/harshshah/Desktop/Harsh/Interview Preparation/AZ-204/AZ-204 - Examples/AZ - 101 - Virtual Machine/az101virtualmachine/az101virtualmachine.csproj": {}
+    "/Users/harshshah/Desktop/PutEverythingInsideThis/Harsh/Interview Preparation/AZ-204/AZ-204 - Examples/AZ - 101 - Virtual Machine/az101virtualmachine/az101virtualmachine.csproj": {}
   },
   "projects": {
-    "/Users/harshshah/Desktop/Harsh/Interview Preparation/AZ-204/AZ-204 - Examples/AZ - 101 - Virtual Machine/az101virtualmachine/az101virtualmachine.csproj": {
+    "/Users/harshshah/Desktop/PutEverythingInsideThis/Harsh/Interview Preparation/AZ-204/AZ-204 - Examples/AZ - 101 - Virtual Machine/az101virtualmachine/az101virtualmachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/harshshah/Desktop/Harsh/Interview Preparation/AZ-204/AZ-204 - Examples/AZ - 101 - Virtual Machine/az101virtualmachine/az101virtualmachine.csproj",
+        "projectUniqueName": "/Users/harshshah/Desktop/PutEverythingInsideThis/Harsh/Interview Preparation/AZ-204/AZ-204 - Examples/AZ - 101 - Virtual Machine/az101virtualmachine/az101virtualmachine.csproj",
         "projectName": "az101virtualmachine",
-        "projectPath": "/Users/harshshah/Desktop/Harsh/Interview Preparation/AZ-204/AZ-204 - Examples/AZ - 101 - Virtual Machine/az101virtualmachine/az101virtualmachine.csproj",
+        "projectPath": "/Users/harshshah/Desktop/PutEverythingInsideThis/Harsh/Interview Preparation/AZ-204/AZ-204 - Examples/AZ - 101 - Virtual Machine/az101virtualmachine/az101virtualmachine.csproj",
         "packagesPath": "/Users/harshshah/.nuget/packages/",
-        "outputPath": "/Users/harshshah/Desktop/Harsh/Interview Preparation/AZ-204/AZ-204 - Examples/AZ - 101 - Virtual Machine/az101virtualmachine/obj/",
+        "outputPath": "/Users/harshshah/Desktop/PutEverythingInsideThis/Harsh/Interview Preparation/AZ-204/AZ-204 - Examples/AZ - 101 - Virtual Machine/az101virtualmachine/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/harshshah/.nuget/NuGet/NuGet.Config"
